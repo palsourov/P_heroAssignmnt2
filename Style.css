@@ -5,11 +5,12 @@ body{
 }
 .margin{
     max-width: 1440px;
-    margin: 0px auto;
+    margin: 0px 140px;
 }
 li{
     list-style: none;
 }
+
 a{
     text-decoration: none;
     font-size: 20px;
@@ -49,6 +50,11 @@ a{
     background-color: #ac5c00;
     transition: 0.5s;
 }
+.SectionHeading{
+    font-size: 46px;
+    font-weight: bold;
+    text-align: center;
+}
 
 /* header section */
 .Navigation ,.Navbar,.banner{
@@ -58,8 +64,54 @@ a{
 }
  /* banner section */
  .bannerTitel{
-    width: 38%;
+    width: 41%;
  }
  .bannerTitel h1{
     font-size: 50px;
  }
+
+ /* Main Section */
+ .MainSection{
+    background-image: url("./Image/bg.png");
+ }
+ /* Standard Curriculum */
+ .Curriculum{
+    margin-top: 60px;   
+ }
+ .Card{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+
+ }
+ .card2{
+    background-image: linear-gradient(to top ,white,#FFF4DC);
+ }
+ .card3{
+    background-image: linear-gradient(to top,white,#F2E8FF);
+ }
+ .card1{
+    background-image: linear-gradient(to top,white,#DEF5FF);
+ }
+ .card1text{
+    color: #64C8FF;
+    font-weight: bold;
+ }
+ .card2text{
+    color: #F0AA00;
+    font-weight: bold;
+ }
+ .card3text{
+    color: #8700FF;
+    font-weight: bold;
+ }
+ .cards{
+    padding: 18px;
+    box-shadow: 0px 1px 4px 0px black;
+    width: 70%;
+    text-align: center;
+    margin: 0px auto;
+    border-radius:10px;
+    
+ }
+ 
