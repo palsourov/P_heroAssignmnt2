@@ -3,6 +3,9 @@
 body{
     font-family: "Quicksand", serif;
 }
+.displayNone{
+   display:none;
+}
 .top{
    margin-top: 100px;
 }
@@ -85,8 +88,8 @@ background-color: #95B226;
 
 /* header section */
 .Navigation ,.Navbar,.banner{
-    justify-content:space-between;
-    gap: 32px;
+    justify-content:space-around;
+    /* gap: 32px; */
     align-items: center;
 }
  /* banner section */
@@ -211,7 +214,7 @@ background-color: #95B226;
  /* footer section */
 footer{
    margin-top: 190px;
-   height: 520px;
+   min-height: 520px;
    align-items: center;
 }
 .footer{
@@ -230,6 +233,72 @@ footer{
 }
 .des img{
    height: 100px;
+}
+.footerBg{
+   background-color: #01ACFD;
+}
+
+/* responsive part */
+
+@media screen  and (max-width:576px){
+     .header, .StandardCurriculum , .OutStores , .footer{
+         margin: 0px 0px;
+     }
+     
+     
+     .Card {
+         flex-direction: column;
+         width: 100%;
+         gap: 20px;
+          
+     }
+     .cards{
+       height: 400px;
+     }
+     .Story{
+      padding: 10px;
+     }
+    .story1{
+      display: none;
+    } 
+    .stores2{
+      grid-template-columns:repeat(2,1fr);
+      gap: 20px;
+      width: 100%;
+   }
+   .displayNone{
+      display: block;
+   }
+   .btns button {
+      padding: 10px 15px;
+      margin: -24px 10px;
+      font-size: 15px;
+    }
+
+     .footer{ 
+      flex-direction: column;
+      padding: 50px;
+    } 
+    footer{
+      margin-top: 190px;
+   }
+   .width{
+      width: 100%;
+   }
+   .aboutSchool {
+      margin-left: -40px;
+   }
+   .banner{
+      flex-direction: column-reverse; width: 100%;
+   }
+   .bannerTitel{
+       width: 100%;
+   }
+   .bannerTitel h1{
+      font-size:30px;
+      text-align: center;    
+   }
+
 }
 
 
