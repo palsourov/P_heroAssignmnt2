@@ -3,14 +3,19 @@
 body{
     font-family: "Quicksand", serif;
 }
+.top{
+   margin-top: 100px;
+}
+.texCenter{
+   text-align: center;
+}
 .margin{
     max-width: 1440px;
-    margin: 0px 140px;
+    margin: 0px 150px;
 }
 li{
     list-style: none;
 }
-
 a{
     text-decoration: none;
     font-size: 20px;
@@ -40,9 +45,7 @@ a{
 .bg-green{
 background-color: #95B226;
 }
-.bg_black{
-    background:black
-}
+
 .bg-blue{
   background-color: #5D58F0;
 }
@@ -54,10 +57,26 @@ background-color: #95B226;
     border-radius: 10px;
     border: none;
 }
+.btnSecondery{
+    background-color: black;
+    color: white;
+    padding: 17px 30px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+}
+.btnsecondery button:hover{
+   background-color: white;
+   color:black;
+   transition: 0.5s;
+   border: 2px solid black;
+}
+
 .btn button:hover{
     background-color: #ac5c00;
     transition: 0.5s;
 }
+
 .SectionHeading{
     font-size: 46px;
     font-weight: bold;
@@ -66,7 +85,7 @@ background-color: #95B226;
 
 /* header section */
 .Navigation ,.Navbar,.banner{
-    justify-content: space-around;
+    justify-content:space-between;
     gap: 32px;
     align-items: center;
 }
@@ -84,21 +103,20 @@ background-color: #95B226;
     background-repeat: no-repeat;
     background-size: cover;  
  }
+
  /* Standard Curriculum */
  .Curriculum{
     margin-top: 60px;   
  }
  .Card{
-    /* margin-top: 80px; */
-    display: grid;
-    grid-template-columns:repeat(3,1fr);
-    gap: 30px;
+    margin-top: 80px;
+    justify-content: space-around;
  }
  .card2{
     background-image: linear-gradient(to top ,white,#FFF4DC);
  }
  .card3{
-    background-image: linear-gradient(to top,white,#F2E8FF);
+    background-image: linear-gradient(to bottom,white,#F2E8FF);
  }
  .card1{
     background-image: linear-gradient(to top,white,#DEF5FF);
@@ -120,7 +138,13 @@ background-color: #95B226;
     box-shadow: 0px 1px 4px 0px black;
     text-align: center;
     margin: 0px auto;
-    border-radius:10px;   
+    border-radius:10px; 
+    max-width: 366px; 
+    height: 441px;  
+ }
+ .cards p{
+   margin-top: 33px;
+   line-height: 30px;
  }
  .icon{
    text-align: center;
@@ -147,9 +171,6 @@ background-color: #95B226;
    margin-top: 50px;
    line-height: 33px;
  }
- .story1{
-   max-width: 540px;
- }
  .story1 img{
    height: 55%;
  }
@@ -157,7 +178,7 @@ background-color: #95B226;
    display: grid;
    grid-template-columns:repeat(2,1fr);
    gap: 20px;
-   max-width: 700px;
+   width: 100%;
 }
 .store img{
    width: 100%;
@@ -186,10 +207,8 @@ background-color: #95B226;
 .title{
    padding: 20px;
 }
+
  /* footer section */
- .footermargin{
-  
- }
 footer{
    margin-top: 190px;
    height: 520px;
@@ -198,16 +217,17 @@ footer{
 .footer{
    justify-content:space-between;  
 }
-.footer h2, h1, p ,a {
+
+.color ,.aboutSchool a{
    color:#FFFFFF;
 }
+
 .width{
    width: 34%;
 }
 .aboutSchool ul li {
    margin-top: 10px;
 }
-
 .des img{
    height: 100px;
 }
