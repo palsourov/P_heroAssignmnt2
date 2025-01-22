@@ -210,14 +210,15 @@ background-color: #95B226;
    padding-bottom: 150px;
 }
 .btns button{
-   padding: 10px 25px;
-   border-radius: 20px;
-   border: none;
-   position: absolute;
-   margin: -24px 20px;
-   font-size: 16px;
-   font-weight: bold;
-   color: white;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: none;
+  position: relative;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  top: -26px;
+  left: 12px;
 }
 .title h3{
    font-size: 22px;
@@ -318,11 +319,12 @@ footer{
       display: block;
    }
    .btns button {
-      padding: 7px 10px;
-      margin: -24px 10px;
-      font-size: 15px;
-      width: 150px;
-      height: 50px;
+      padding: 5px 5px;
+      top:-20px;
+      left:10px;
+      font-size:15px;
+      /* width: 150px;
+      height: 50px; */
     }
      .footer{ 
       flex-direction: column;
