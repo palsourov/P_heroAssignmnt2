@@ -279,7 +279,7 @@ footer{
    } 
    .border {
        border: 1px solid #FF900E;
-       margin-top: 10px;
+       margin: 10px auto;
      
    }
      .Navigation{
@@ -306,8 +306,12 @@ footer{
      .bannerTitel{
       width: 100%;
       text-align: center; 
+      margin-left: 0px;
       
    }
+   .bannerTitel p {
+      font-size: 18px;
+    }
    .Curriculum h1{
       font-size: 35px;
    }
@@ -316,7 +320,7 @@ footer{
    }
    .bannerTitel h1{
       width: 100%;
-      font-size: 44px; 
+      font-size: 45px; 
    }
      .title h3{
       font-size: 16px;
@@ -329,6 +333,9 @@ footer{
       padding: 30px;
       margin-top: 0px;
     
+    }
+    .stores2{
+      padding: 20px;
     }
     .storys{
       grid-template-columns:repeat(2,1fr);
