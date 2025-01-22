@@ -107,9 +107,8 @@ background-color: #95B226;
 
  /* Main Section */
  .MainSection{
-    background-image: url("./Image/bg.png");
-    background-repeat: no-repeat;
-    background-size: cover;  
+   background: url("./Image/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    background-repeat: no-repeat;  
  }
 
  /* Standard Curriculum */
@@ -198,6 +197,18 @@ background-color: #95B226;
    border-radius: 10px;
    background-color: white;
 }
+.btn3{
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+.btn3 button{
+   width: 200px;
+}
+
+.Story {
+   padding-bottom: 150px;
+}
 .btns button{
    padding: 10px 25px;
    border-radius: 20px;
@@ -218,7 +229,6 @@ background-color: #95B226;
 
  /* footer section */
 footer{
-   margin-top: 190px;
    min-height: 520px;
    align-items: center;
 }
@@ -242,6 +252,13 @@ footer{
 .footerBg{
    background-color: #01ACFD;
 }
+.marquee {
+   font-size: 40px;
+   background-color: #01ACFD;
+   font-weight: bold;
+   color: rgb(252, 251, 250);
+   word-spacing: 20px;
+}
 
 /* responsive part */
 
@@ -252,8 +269,9 @@ footer{
      .Navbar, .btn,.story1,.logo h1, .icon{
       display: none;
    } 
-   .hr{
+   .hr hr {
       margin-top: 30px;
+      color: #FF900E;
    }
      .Navigation{
         justify-content:space-between;
@@ -265,13 +283,11 @@ footer{
      }
      .bannerImg {
       justify-content: center;
-      align-items: center;
-      
+      align-items: center; 
      }
      .bannerImg img{
       margin-top: 70px;
-      width: 90%;
-      
+      width: 90%;  
      } 
      .Card {
          flex-direction: column;
@@ -282,6 +298,14 @@ footer{
       font-size: 18px;
       font-weight: bold;
    }
+   .btn3{
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+      margin-top: 0px;
+    
+    }
+   
      .Story{
       padding: 10px;
      }
@@ -304,9 +328,6 @@ footer{
       flex-direction: column;
       padding: 50px;
     } 
-    footer{
-      margin-top: 190px;
-   } 
    .aboutSchool {
       margin-left: -40px;
    }
@@ -319,7 +340,7 @@ footer{
       margin: 0px 30px; 
    }
    .bannerTitel h1{
-      font-size: 46px;    
+      font-size: 42px;    
    }
 }
 
