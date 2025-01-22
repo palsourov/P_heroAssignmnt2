@@ -123,6 +123,7 @@ background-color: #95B226;
  .Card{
     margin-top: 80px;
     justify-content: space-around;
+    gap: 30px;
  }
  .card2{
     background-image: linear-gradient(to top ,white,#FFF4DC);
