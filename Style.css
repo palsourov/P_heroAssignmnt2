@@ -90,7 +90,7 @@ background-color: #95B226;
 /* header section */
 .Navigation ,.Navbar,.banner{
     justify-content:space-around;
-    /* gap: 32px; */
+    gap: 32px;
     align-items: center;
 }
  /* banner section */
@@ -242,22 +242,26 @@ footer{
 /* responsive part */
 
 @media screen  and (max-width:576px){
-     .header, .StandardCurriculum , .OutStores , .footer{
+    .header, .StandardCurriculum , .OutStores , .footer{
          margin: 0px 0px;
-     }  
-     .header{
-       padding: 20px;
-     }
-     .Navbar{
-        visibility: hidden;
-     }
+     } 
+     .Navbar, .btn,.story1,.logo h1, .icon{
+      display: none;
+   } 
+   .hr{
+      margin-top: 30px;
+   }
+     .Navigation{
+        justify-content:space-between;
+        padding: 0px 20px;
+     } 
      .menu{
        display: block;
        font-size: 40px;
      }
-     .btn{
-        display: none;
-     }  
+     .bannerImg{
+      margin-top: 70px;
+     } 
      .Card {
          flex-direction: column;
          width: 100%;
@@ -271,9 +275,6 @@ footer{
      .Story{
       padding: 10px;
      }
-    .story1{
-      display: none;
-    } 
     .stores2{
       grid-template-columns:repeat(2,1fr);
       gap: 20px;
@@ -287,7 +288,6 @@ footer{
       margin: -24px 10px;
       font-size: 15px;
     }
-
      .footer{ 
       flex-direction: column;
       padding: 50px;
@@ -302,14 +302,11 @@ footer{
       margin-left: -40px;
    }
    .banner{
-      flex-direction: column-reverse; width: 100%;
+      flex-direction: column-reverse; 
    }
    .bannerTitel{
-       width: 100%;
-   }
-   .bannerTitel h1{
-      font-size:30px;
-      text-align: center;    
+      width: 90%;
+      text-align: center;   
    }
 
 }
