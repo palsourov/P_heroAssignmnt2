@@ -113,7 +113,7 @@ background-color: #95B226;
 
  /* Main Section */
  .MainSection{
-   background: url("./Image/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+   background: url("./Image/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 50%);
     background-repeat: no-repeat;  
  }
 
@@ -278,9 +278,10 @@ footer{
      .Navbar, .btn,.story1,.logo h1, .icon{
       display: none;
    } 
-   .hr hr {
-      margin-top: 30px;
-      color: #FF900E;
+   .border {
+       border: 1px solid #FF900E;
+       margin-top: 10px;
+     
    }
      .Navigation{
         justify-content:space-between;
