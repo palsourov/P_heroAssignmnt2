@@ -113,7 +113,7 @@ background-color: #95B226;
 
  /* Main Section */
  .MainSection{
-   background: url("./Image/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 50%);
+   background: url("./Image/bg.png"),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 40%);
     background-repeat: no-repeat;  
  }
 
@@ -175,7 +175,6 @@ background-color: #95B226;
  /* our sories section */
  .OutStores{
    margin-top: 100px;
-   /* background-image: linear-gradient(to bottom ,white,#fcefd2); */
    
  }
  .store {
@@ -215,7 +214,7 @@ background-color: #95B226;
 }
 
 .Story {
-   padding-bottom: 150px;
+   padding-bottom: 100px;
 }
 .btns button{
   padding: 10px 25px;
