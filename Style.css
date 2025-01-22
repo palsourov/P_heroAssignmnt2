@@ -253,11 +253,11 @@ footer{
    background-color: #01ACFD;
 }
 .marquee {
-   font-size: 40px;
+   font-size: 30px;
    background-color: #01ACFD;
    font-weight: bold;
    color: rgb(252, 251, 250);
-   word-spacing: 20px;
+   word-spacing: 10px;
 }
 
 /* responsive part */
