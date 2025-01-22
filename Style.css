@@ -265,13 +265,13 @@ footer{
      }
      .bannerImg{
       margin-top: 70px;
-      width: 90%;
+      width: 100%;
+      text-align: center;
      } 
      .Card {
          flex-direction: column;
          width: 100%;
-         gap: 20px;
-          
+         gap: 20px;        
      }
      .title h3{
       font-size: 18px;
@@ -301,8 +301,7 @@ footer{
     } 
     footer{
       margin-top: 190px;
-   }
-  
+   } 
    .aboutSchool {
       margin-left: -40px;
    }
@@ -315,10 +314,8 @@ footer{
       margin: 0px 30px; 
    }
    .bannerTitel h1{
-      font-size: 46px;
-      
+      font-size: 46px;    
    }
-
 }
 
 
