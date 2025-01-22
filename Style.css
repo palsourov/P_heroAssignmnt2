@@ -8,7 +8,7 @@ body{
 }
 
 .top{
-   margin-top: 100px;
+   margin-top: 80px;
 }
 .texCenter{
    text-align: center;
@@ -88,14 +88,18 @@ background-color: #95B226;
 }
 
 /* header section */
-.Navigation ,.Navbar,.banner{
-    justify-content:space-around;
+.Navigation{
+   justify-content:space-between;
+   align-items: center;
+}
+  .Navbar,.banner{
+    justify-content:space-evenly;
     gap: 32px;
     align-items: center;
 }
  /* banner section */
  .bannerTitel{
-    width: 41%;
+    width: 40%;
  }
  .bannerTitel h1{
     font-size: 50px;
@@ -261,6 +265,7 @@ footer{
      }
      .bannerImg{
       margin-top: 70px;
+      width: 90%;
      } 
      .Card {
          flex-direction: column;
@@ -284,9 +289,11 @@ footer{
       display: block;
    }
    .btns button {
-      padding: 10px 15px;
+      padding: 7px 10px;
       margin: -24px 10px;
       font-size: 15px;
+      width: 150px;
+      height: 50px;
     }
      .footer{ 
       flex-direction: column;
@@ -295,9 +302,7 @@ footer{
     footer{
       margin-top: 190px;
    }
-   .width{
-      width: 100%;
-   }
+  
    .aboutSchool {
       margin-left: -40px;
    }
@@ -305,8 +310,13 @@ footer{
       flex-direction: column-reverse; 
    }
    .bannerTitel{
-      width: 90%;
-      text-align: center;   
+      width: 100%;
+      text-align: center;  
+      margin: 0px 30px; 
+   }
+   .bannerTitel h1{
+      font-size: 46px;
+      
    }
 
 }
