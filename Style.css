@@ -263,10 +263,15 @@ footer{
        display: block;
        font-size: 40px;
      }
-     .bannerImg{
+     .bannerImg {
+      justify-content: center;
+      align-items: center;
+      
+     }
+     .bannerImg img{
       margin-top: 70px;
-      width: 100%;
-      text-align: center;
+      width: 90%;
+      
      } 
      .Card {
          flex-direction: column;
